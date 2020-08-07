@@ -1,0 +1,52 @@
+.AlarmResultItem {
+	height: 70px;
+	margin: 0 0 5px;
+	padding: 0;
+	display: block;
+	font-size: 1.8em;
+}
+
+.AlarmResultAlert {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.AlertSignal {
+	-webkit-animation: blinkSignal 1s linear infinite;
+	animation: blinkSignal 1s linear infinite;
+}
+
+.AlarmResultNumber {
+	display: inline-block;
+	font-size: 0.8em;
+}
+
+.AlarmResultTime {
+	font-size: 1.0em;
+}
+
+.AlarmResultBtn {
+	margin: -8px 0 0;
+}
+
+.AlarmResultBtnGroup {
+	margin-left: 20px;
+}
+
+.AlarmResultDotted {
+	margin: -5px 5px 0;
+}
+
+@keyframes blinkSignal {
+	0% {opacity: 1;}
+	50% {opacity: .5;}
+	100% {opacity: 1;}
+}
+
+@media (max-width: 499px) {
+	.AlarmResultTime {
+		font-size: 0.95em;
+	}
+}
+

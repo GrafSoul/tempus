@@ -1,0 +1,10 @@
+.StopwatchPrint {
+	text-align: center;
+}
+
+.StopwatchPrintList {
+	display: inline-block;
+	list-style: none;
+	margin: 5px 0 0;
+	padding: 0;
+}

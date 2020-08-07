@@ -1,0 +1,25 @@
+.AlarmSelectItem {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: baseline;
+	margin: 0 5px;
+}
+
+.AlarmNumber {
+	width: 72px;
+	height: 58px;
+	font-size: 2.3em;
+}
+
+.AlarmNumberBtn {
+	width: 38px;
+	height: 38px;
+	margin: 9px 5px 0;
+}
+
+@media (max-width: 499px) {
+	.AlarmSelectItem {
+		margin: 0 5px 15px;
+	}
+}

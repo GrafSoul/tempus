@@ -1,0 +1,13 @@
+.Home {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.Home h2 {
+	padding: 0 0 20px;
+}
+
+.Text {
+    text-align: center;
+}

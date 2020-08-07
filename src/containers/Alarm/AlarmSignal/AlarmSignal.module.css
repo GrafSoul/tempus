@@ -1,0 +1,25 @@
+.AlarmSignal {
+	margin: 0;
+}
+
+.SignalBtn {
+	-webkit-animation: blink 1s linear infinite;
+	animation: blink 1s linear infinite;
+}
+@keyframes blink {
+	0% {
+		color: rgba(255, 255, 255, 1);
+		background-color: rgba(220, 53, 69, 1);
+		border-color: rgba(220, 53, 69, 1);
+	}
+	50% {
+		color: rgba(255, 255, 255, 0);
+		background-color: rgba(220, 53, 69, 0.5);
+		border-color: rgba(220, 53, 69, 0.5);
+	}
+	100% {
+		color: rgba(255, 255, 255, 1);
+		background-color: rgba(220, 53, 69, 1);
+		border-color: rgba(220, 53, 69, 1);
+	}
+}

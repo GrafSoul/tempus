@@ -1,0 +1,9 @@
+.AlarmClock {
+	margin: 20px 0 20px;
+	font-size: 2.2em;
+}
+
+.AlarmClock h5 {
+	margin: 0 0 -5px;
+	color: #999999;
+}

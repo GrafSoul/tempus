@@ -1,0 +1,15 @@
+.Navigation {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	border-top: 1px solid #eeeeee;
+}
+
+
+@media (min-width: 500px) {
+	.Navigation {
+		border-top: none;
+	}
+}

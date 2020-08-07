@@ -1,0 +1,30 @@
+.StopwatchPrintNumber {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.StopwatchPrintItem {
+	font-size: 1.3em;
+	margin-bottom: 5px;
+}
+
+.StopwatchPrintItemMs  {
+	background-color: #d5d5d5;
+	color: #999999;
+	font-size: 1.3em;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 499px) {
+	.StopwatchPrintNumber {
+		font-size: .8em;
+	}
+
+	.StopwatchPrintItem {
+		font-size: .8em;
+	}
+
+	.StopwatchPrintItemMs  {
+		font-size: .8em;
+	}
+}

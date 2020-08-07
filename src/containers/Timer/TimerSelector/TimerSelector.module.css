@@ -1,0 +1,19 @@
+.TimerSelector {
+	display: inline-block;
+	text-align: center;
+}
+
+.TimerSelectGroup {
+	display: inline-block;
+	text-align: center;
+}
+
+.TimerSelectGroup h5 {
+	margin: 0 0 20px;
+}
+
+@media (max-width: 499px) {
+	.TimerSelector {
+		margin: 0 5px;
+	}
+}

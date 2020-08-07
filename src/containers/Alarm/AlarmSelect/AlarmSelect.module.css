@@ -1,0 +1,29 @@
+.AlarmSelect {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: baseline;
+	margin: 0 0 20px;
+}
+
+.AlarmSelectTitle {
+	text-align: center;
+	margin: 0 0 15px;
+}
+
+.AlarmSelectBtn {
+	margin: 0 3px;
+}
+
+.AlarmSelectBtnGroup {
+	text-align: center;
+	margin: 0 0 5px;
+}
+
+@media (max-width: 499px) {
+	.AlarmSelect {
+		height: auto;
+		flex-direction: column;
+		align-content: center;
+	}
+}

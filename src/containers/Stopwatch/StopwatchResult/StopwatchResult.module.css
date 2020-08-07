@@ -1,0 +1,29 @@
+.StopwatchItemGroup {
+	margin: 20px 0 20px;
+	font-size: 2.2em;
+}
+
+.StopwatchItem {
+	font-size: 1.2em;
+}
+
+.StopwatchMilliseconds {
+	font-size: 1.2em;
+	background-color: #e4e4e4;
+	color: #999999;
+}
+
+@media (max-width: 499px) {
+	.StopwatchItemGroup {
+		margin: 20px 0 20px;
+		font-size: 1.2em;
+	}
+
+	.StopwatchItem {
+		font-size: 1.3em;
+	}
+
+	.StopwatchMilliseconds {
+		font-size: 1.3em;
+	}
+}

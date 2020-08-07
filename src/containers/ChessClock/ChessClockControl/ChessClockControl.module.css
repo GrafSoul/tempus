@@ -1,0 +1,11 @@
+.ChessClockControl {}
+
+.ChessClockBtn {
+	margin: 0 3px;
+	width: 95px;
+}
+
+.ChessClockBtnGroup {
+	margin: 0 0 20px;
+}
+

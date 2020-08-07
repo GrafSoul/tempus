@@ -1,0 +1,7 @@
+.ChessClockPlayers {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: baseline;
+	margin: 0 5px;
+}

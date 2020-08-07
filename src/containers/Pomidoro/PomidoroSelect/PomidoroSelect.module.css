@@ -1,0 +1,16 @@
+.PomidoroSelect {
+	height: 95px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: baseline;
+	margin: 0 0 20px;
+}
+
+@media (max-width: 499px) {
+	.PomidoroSelect {
+		height: auto;
+		flex-direction: column;
+		align-content: center;
+	}
+}

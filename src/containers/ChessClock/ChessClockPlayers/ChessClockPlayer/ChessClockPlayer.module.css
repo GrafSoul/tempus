@@ -1,0 +1,12 @@
+.ChessClockPlayer {
+	margin: 0 20px;
+}
+
+.ChessClockResultItemGroup {
+	margin: 10px 0 0;
+	font-size: 2.2em;
+}
+
+.ChessClockResultItem {
+	font-size: 1.2em;
+}

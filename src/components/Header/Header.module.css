@@ -1,0 +1,14 @@
+.Header {
+    background-color: #3E2723;
+    padding: 55px 20px 20px;
+    color: white;
+	min-width: 320px;
+	/* -webkit-app-region: drag;
+	-webkit-user-select: none; */
+}
+
+@media (max-width: 499px) {
+	.DesktopOnly {
+		display: none;
+	}
+}

@@ -1,0 +1,40 @@
+.Layout {
+    text-align: center;
+	background-color: #fff;
+    -webkit-user-select: none;
+}
+
+.Topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px 5px 10px;
+    background-color: #2f1e1b;
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+
+}
+
+.Title {
+    color: #d78d81;
+}
+
+.Title i {
+    margin-right: 5px;
+}
+
+.Topbar button {
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+    background-color: #2f1e1b;
+    color: #b77266;
+    border: none;
+    outline: none;
+}
+
+
+
